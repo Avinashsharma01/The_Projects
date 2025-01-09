@@ -21,7 +21,7 @@ import StopWatch from "../assets/images/StopWatch.png";
 import Temprature from "../assets/images/Temprature.png";
 import Testimonial from "../assets/images/Testimonial.png";
 import TextAnime from "../assets/images/TextAnime.png";
-import TextTOspeech from "../assets/images/TextTOspeech.png";
+import TextTOSpeech from "../assets/images/TextTOSpeech.png";
 import TextUtil from "../assets/images/TextUtil.png";
 import todo from "../assets/images/todoo.png";
 import watch from "../assets/images/watch.png";
@@ -347,7 +347,7 @@ const Home = () => {
                 </div>
                 <div className="box bg-slate-600 w-[100%] h-[300px]">
                 <div className="img">
-                        <img src={TextTOspeech} alt="" />
+                        <img src={TextTOSpeech} alt="" />
                     </div>
                     <div className="desc w-full h-full flex justify-center items-start mt-2">
                         <a
