@@ -26,25 +26,25 @@ const Header = () => {
                             <li>Template</li>
                             <IoMdArrowDropdown />
                         </div>
-                        <div className="homesublist absolute top-5 -left-5 bg-white w-[200px] hidden rounded-sm group-hover:flex  ">
+                        <div className="homesublist absolute top-5 -left-5 bg-white w-[200px] hidden rounded-sm group-hover:flex">
                             <ul className="flex w-full flex-col items-start space-y-8 py-5 px-5">
                                 <li className="mt-8 hover:text-[#129d8e]">
-                                    Template Sublist
+                                    Template Sublist 1
                                 </li>
                                 <li className="hover:text-[#129d8e]">
-                                    Template Sublist
+                                    Template Sublist 2
                                 </li>
                                 <li className="hover:text-[#129d8e]">
-                                    Template Sublist
+                                    Template Sublist 3
                                 </li>
                                 <li className="hover:text-[#129d8e]">
-                                    Template Sublist
+                                    Template Sublist 4
                                 </li>
                                 <li className="hover:text-[#129d8e]">
-                                    Template Sublist
+                                    Template Sublist 5
                                 </li>
                                 <li className="hover:text-[#129d8e]">
-                                    Template Sublist
+                                    Template Sublist 6
                                 </li>
                             </ul>
                         </div>
