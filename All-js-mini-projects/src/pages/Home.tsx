@@ -95,7 +95,7 @@ const Home = () => {
                 </div>
                 <div className="box bg-slate-600 w-[100%] h-[300px]">
                 <div className="img">
-                        <img src={Loader} alt="" />
+                        <img  src={Loader} alt=""/>
                     </div>
                     <div className="desc w-full h-full flex justify-center items-start mt-2">
                         <a
@@ -309,7 +309,7 @@ const Home = () => {
                     </div>
                     <div className="desc w-full h-full flex justify-center items-start mt-2">
                         <a
-                            href="#"
+                            href="https://onlineeeeeee.netlify.app"
                             className="bg-blue-700 p-1 w-full text-center text-white"
                             target="_blank"
                         >
@@ -421,7 +421,7 @@ const Home = () => {
                     </div>
                     <div className="desc w-full h-full flex justify-center items-start mt-2">
                         <a
-                            href="#]https://qrr-code-gen.netlify.app"
+                            href="https://qrr-code-gen.netlify.app"
                             className="bg-blue-700 p-1 w-full text-center text-white"
                             target="_blank"
                         >
@@ -453,7 +453,7 @@ const Home = () => {
                             className="bg-blue-700 p-1 w-full text-center text-white"
                             target="_blank"
                         >
-                            Image Slider
+                            HoverTwo
                         </a>
                     </div>
                 </div>
