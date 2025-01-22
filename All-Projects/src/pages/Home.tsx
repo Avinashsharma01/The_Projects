@@ -10,7 +10,6 @@ import Student_Management from "../assets/images/Student_Management.png"
 import Brijesh_portFolio from "../assets/images/Brijesh_port_folio.png"
 
 const Home = () => {
-
   const imageArray = [
     {
       imageULR:All_Mini_projects,
@@ -49,7 +48,7 @@ const Home = () => {
     },
     {
       imageULR:React_25_mini,
-      Title:'React 25 Mini',
+      Title:'React 25 Mini Project',
       Link:"https://reactminiprojects.vercel.app/",
     },
     {
@@ -64,9 +63,6 @@ const Home = () => {
     },
 
   ];
-
-
-
 
 
     return (
