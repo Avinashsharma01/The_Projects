@@ -14,7 +14,7 @@ const Home = () => {
     {
       imageULR:All_Mini_projects,
       Title:'All Mini projects',
-      Link:"https://all-mini-projectss.vercel.app/",
+      Link:"https://all-js-mini-projects.vercel.app/",
     },
     {
       imageULR:Eommerce,
