@@ -1,4 +1,5 @@
 import RandomColor from "../assets/images/RandomColor.png";
+import Rock from "../assets/images/Rock.png";
 import checkbox from "../assets/images/checkbox.png";
 import ColorOne from "../assets/images/ColorOne.png";
 import ColorTwo from "../assets/images/ColorTwo.png";
@@ -15,7 +16,6 @@ import PassWordCheck from "../assets/images/PassWordCheck.png";
 import QrCode from "../assets/images/QrCode.png";
 import quize from "../assets/images/quize.png";
 import randomimoji from "../assets/images/randomimoji.png";
-import Rock from "../assets/images/Rock.png";
 import ScrollBaar from "../assets/images/ScrollBaar.png";
 import StopWatch from "../assets/images/StopWatch.png";
 import Temprature from "../assets/images/Temprature.png";
@@ -30,6 +30,161 @@ import xy from "../assets/images/xy.png";
 import HoverTwo from "../assets/images/HoverTwo.png";
 
 const Home = () => {
+
+    const MyData = [
+        {
+            imageULR:RandomColor,
+            Title:'Random Color',
+            Link:"https://all-mini-projectss.vercel.app/",
+        },
+        {
+            imageULR:Rock,
+            Title:'Rock-Pepar-Scissors',
+            Link:"https://rockpeparscissors.netlify.app",
+        },
+        {
+            imageULR:watch,
+            Title:'Watch-Calender',
+            Link:"https://mini-calenderrrr.netlify.app",
+        },
+        {
+            imageULR:miniShop,
+            Title:'Mini-Shoping',
+            Link:"https://coruscating-sunshine-5047f8.netlify.app",
+        },
+        {
+            imageULR:Loader,
+            Title:'Loader',
+            Link:"https://loadingbaar.netlify.app",
+        },
+        {
+            imageULR:Weather,
+            Title:'Weather-App',
+            Link:"https://weatherweatherw.netlify.app",
+        },
+        {
+            imageULR:Temprature,
+            Title:'Temprature',
+            Link:"https://tempraturere.netlify.app",
+        },
+        {
+            imageULR:StopWatch,
+            Title:'StopWatch-App',
+            Link:"https://stopwatchch.netlify.app",
+        },
+        {
+            imageULR:quize,
+            Title:'Quize-App',
+            Link:"https://quizezeze.netlify.app",
+        },
+        {
+            imageULR:PasswordGen,
+            Title:'Password-Ganerator',
+            Link:"https://password-generatoreeee.netlify.app",
+        },
+        {
+            imageULR:PassWordCheck,
+            Title:'Password-Checker',
+            Link:"https://password-checkkkk.netlify.app",
+        },
+        {
+            imageULR:kgTopound,
+            Title:'WeightConverter',
+            Link:"https://weightconverterweight.netlify.app",
+        },
+        {
+            imageULR:ColorOne,
+            Title:'Color-One',
+            Link:"tps://coloroneee.netlify.app",
+        },
+        {
+            imageULR:randomimoji,
+            Title:'Random-Emoji',
+            Link:"https://randomemojiiiiii.netlify.app",
+        },
+        {
+            imageULR:xy,
+            Title:'XY-Cordinates',
+            Link:"https://xycordinates.netlify.app",
+        },
+        {
+            imageULR:Testimonial,
+            Title:'Testimonial',
+            Link:"https://testimonialsliderre.netlify.app",
+        },
+        {
+            imageULR:todo,
+            Title:'ToDo-App',
+            Link:"https://todolistlisttodolist.netlify.app",
+        },
+        {
+            imageULR:ColorTwo,
+            Title:'Color Two',
+            Link:"https://colortwo.netlify.app",
+        },
+        {
+            imageULR:mul,
+            Title:'Multiplication',
+            Link:"https://multiplicationnnnnn.netlify.app",
+        },
+        {
+            imageULR:OnOffline,
+            Title:'Online And Offline check',
+            Link:"https://onlineeeeeee.netlify.app",
+        },
+        {
+            imageULR:TextUtil,
+            Title:'TextUtill',
+            Link:"https://sweet-paletas-6f65a9.netlify.app",
+        },
+        {
+            imageULR:TextAnime,
+            Title:'Text-Lattering',
+            Link:"https://textanimationtext.netlify.app",
+        },
+        {
+            imageULR:TextTOSpeech,
+            Title:'Text To Speech',
+            Link:"https://texttospeechch.netlify.app",
+        },
+        {
+            imageULR:ScrollBaar,
+            Title:'Scroll 1-100%',
+            Link:"https://scrollwithcontant.netlify.app",
+        },
+        {
+            imageULR:checkbox,
+            Title:'CheckBox-UI',
+            Link:"https://brave-dropdown.netlify.app",
+        },
+        {
+            imageULR:CrandomColor,
+            Title:'RandomColor-Switching',
+            Link:"https://randomcolorrrrr.netlify.app",
+        },
+        {
+            imageULR:HoverEffect,
+            Title:'Hover-One',
+            Link:"https://hovereffecttwo.netlify.app",
+        },
+        {
+            imageULR:QrCode,
+            Title:'Qr Code Generator',
+            Link:"https://qrr-code-gen.netlify.app",
+        },
+        {
+            imageULR:ImageSlider,
+            Title:'Image Slider',
+            Link:"https://imagesliderrrrrw.netlify.app",
+        },
+        {
+            imageULR:HoverTwo,
+            Title:'Hover Two',
+            Link:"https://hovereffecttttt.netlify.app/",
+        },
+    ];
+
+
     return (
         <div className="main ml-10 mr-10 sm:ml-5 sm:mr-5 md:ml-10 md:mr-10 md:mb-10 md:mt-2">
           <div className="heading md:mb-2">
@@ -37,7 +192,34 @@ const Home = () => {
           </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full h-auto mx-auto">
               
-                <div className="box bg-slate-600 w-[100%] h-[300px]">
+
+
+            {
+                MyData.map((item)=>(
+                    <div className="box bg-slate-600 w-[100%] h-[300px]">
+                    <div className="img">
+                        <img src={item.imageULR} alt="" />
+                    </div>
+                    <div className="desc w-full h-full flex justify-center items-start mt-2">
+                        <a
+                            href={item.Link}
+                            className="bg-blue-700 p-1 w-full text-center text-white"
+                            target="_blank"
+                        >
+                            {item.Title}
+                        </a>
+                    </div>
+                </div>
+                ))
+            }
+
+
+
+
+
+
+
+                {/* <div className="box bg-slate-600 w-[100%] h-[300px]">
                     <div className="img">
                         <img src={RandomColor} alt="" />
                     </div>
@@ -229,7 +411,7 @@ const Home = () => {
                             className="bg-blue-700 p-1 w-full text-center text-white"
                             target="_blank"
                         >
-                            Rando-Emoji
+                            Random-Emoji
                         </a>
                     </div>
                 </div>
@@ -456,7 +638,7 @@ const Home = () => {
                             HoverTwo
                         </a>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
